@@ -156,3 +156,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# main.py
+# 运行 FastAPI 应用
