@@ -1,0 +1,742 @@
+[
+    {
+        "name": "最大上下文长度",
+        "category": "旗舰模型",
+        "description": ""
+    },
+    {
+        "name": "最低输入价格",
+        "category": "旗舰模型",
+        "description": ""
+    },
+    {
+        "name": "最低输出价格",
+        "category": "旗舰模型",
+        "description": ""
+    },
+    {
+        "name": "通义千问",
+        "category": "模型总览",
+        "description": "通义千问大语言模型：商业版（QwQ、通义千问-Max、通义千问-Plus、通义千问-Turbo）、开源版（Qwen3、QwQ、Qwen2.5、Qwen2、Qwen1.5）、超长文档模型通义千问-Long多模态模型：视觉理解模型通义千问VL、视觉推理模型QVQ、音频理解模型通义千问Audio、全模态模型通义千问Omni数学模型：通义千问数学模型代码模型：通义千问Coder翻译模型：通义千问翻译模型"
+    },
+    {
+        "name": "DeepSeek",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "通义万相",
+        "category": "模型总览",
+        "description": "可生成图像或编辑图像，适用于生成证件照、电商主图、模特图、各种风格人像图（动漫、国风、二次元等），也可用于抠图、生成背景、更改图片元素等。"
+    },
+    {
+        "name": "Stable Diffusion",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "语音合成",
+        "category": "模型总览",
+        "description": "Qwen-TTS、CosyVoice和Sambert可实现文本转语音，适用于智能语音客服、有声读物、车载导航、教育辅导等场景。"
+    },
+    {
+        "name": "Gummy",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "文生视频",
+        "category": "模型总览",
+        "description": "文生视频：一句话生成视频，视频风格丰富，画质细腻。"
+    },
+    {
+        "name": "首帧生视频",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "通用视频编辑",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "文本向量",
+        "category": "模型总览",
+        "description": "将文本转换成一组可以代表文字的数字，用于搜索、聚类、推荐、分类等。"
+    },
+    {
+        "name": "将文本、图像、语音转换成一组数字，用于音视频分类、图像分类、图文检索等。",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "通义法睿",
+        "category": "模型总览",
+        "description": "适用于法律咨询、案例分析和法规解读等。"
+    },
+    {
+        "name": "意图理解模型",
+        "category": "模型总览",
+        "description": ""
+    },
+    {
+        "name": "qwen-long",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "qwen-long-latest始终与最新快照版能力相同",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "qwen-long-2025-01-25又称qwen-long-0125",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "llama3.3-70b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3.2-3b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3.2-1b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3.1-405b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3.1-70b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3.1-8b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3-70b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama3-8b-instruct",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama2-13b-chat-v2",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "llama2-7b-chat-v2",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "baichuan2-turbo",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "baichuan2-13b-chat-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "baichuan2-7b-chat-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "baichuan-7b-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "chatglm3-6b",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "chatglm-6b-v2",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "yi-large",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "yi-medium",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "yi-large-rag有实时联网能力",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "yi-large-turbo",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "abab6.5g-chat",
+        "category": "文本生成-第三方模型",
+        "description": "适合英文场景"
+    },
+    {
+        "name": "abab6.5t-chat",
+        "category": "文本生成-第三方模型",
+        "description": "适合中文场景"
+    },
+    {
+        "name": "abab6.5s-chat",
+        "category": "文本生成-第三方模型",
+        "description": "适合超长文本场景"
+    },
+    {
+        "name": "ziya-llama-13b-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "belle-llama-13b-2m-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "chatyuan-large-v2",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "billa-7b-sft-v1",
+        "category": "文本生成-第三方模型",
+        "description": ""
+    },
+    {
+        "name": "wanx2.1-t2i-plus",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "生成图像细节更丰富，速度较慢。对应通义万相官网2.1专业模型。"
+    },
+    {
+        "name": "wanx2.1-t2i-turbo",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "生成速度快、效果全面、性价比高。对应通义万相官网2.1极速模型。"
+    },
+    {
+        "name": "wanx2.0-t2i-turbo",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "擅长质感人像，速度中等、成本较低。对应通义万相官网2.0极速模型。"
+    },
+    {
+        "name": "wanx-v1",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-sketch-to-image-lite",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-x-painting",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-style-repaint-v1",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-background-generation-v2",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "image-out-painting",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "image-instance-segmentation",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "image-erase-completion",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-style-cosplay-v1",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "支持真人实拍图上传图片短边：512像素或1024像素",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "支持真人、人台实拍图上传图片短边为：1024像素或2048像素支持改变图片的长宽比文本引导效果更准确",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "shoemodel-v1",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-poster-generation-v1",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "wanx-ast",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": ""
+    },
+    {
+        "name": "facechain-facedetect",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "人物图像检测"
+    },
+    {
+        "name": "facechain-finetune",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "人物形象训练"
+    },
+    {
+        "name": "facechain-generation",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "人物写真生成"
+    },
+    {
+        "name": "wordart-texture",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "文字纹理生成"
+    },
+    {
+        "name": "wordart-semantic",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "文字变形"
+    },
+    {
+        "name": "下线中",
+        "category": "图像生成-通义万相与图像编辑",
+        "description": "百家姓生成"
+    },
+    {
+        "name": "stable-diffusion-3.5-large",
+        "category": "图像生成-第三方模型",
+        "description": "具有8亿参数的多模态扩散变压器（MMDiT）文本到图像生成模型，具备卓越的图像质量和提示词匹配度，支持生成100万像素的高分辨率图像，且能够在普通消费级硬件上高效运行。相比于v1.5和xl，在图像质量、文本内容生成、复杂提示理解和资源效率方面均有显著提升。"
+    },
+    {
+        "name": "stable-diffusion-3.5-large-turbo",
+        "category": "图像生成-第三方模型",
+        "description": "在stable-diffusion-3.5-large的基础上采用对抗性扩散蒸馏（ADD）技术的模型，具备更快的速度。"
+    },
+    {
+        "name": "stable-diffusion-xl",
+        "category": "图像生成-第三方模型",
+        "description": "相比v1.5做了重大改进，被认为是当前开源文生图模型的SOTA水准，具体改进包括：unet backbone是之前的3倍；增加了refinement模块用于改善生成图片的质量；更高效的训练技巧等。"
+    },
+    {
+        "name": "stable-diffusion-v1.5",
+        "category": "图像生成-第三方模型",
+        "description": "通过clip模型将文本的embedding和图片embedding映射到相同空间，从而通过输入文本并结合unet的稳定扩散预测噪声的能力，生成图片。是一款基础的文生图模型，得到了业界广泛使用。"
+    },
+    {
+        "name": "cosyvoice-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "见下表",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhinan-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiqi-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhichu-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhide-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhijia-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiru-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiqian-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhixiang-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiwei-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhihao-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhijing-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiming-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhimo-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhina-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhishu-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhistella-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiting-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhixiao-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiya-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiye-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiying-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiyuan-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhiyue-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhigui-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhishuo-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhimiao-emo-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhimao-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhilun-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhifei-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-zhida-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-camila-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-perla-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-indah-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-clara-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-hanna-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-beth-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-betty-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-cally-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-cindy-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-eva-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-donna-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-brian-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "sambert-waan-v1",
+        "category": "语音合成（文本转语音）",
+        "description": ""
+    },
+    {
+        "name": "gummy-realtime-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "gummy-chat-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-v2",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-8k-v2",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-8k-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-mtl-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-realtime-v2",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-realtime-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-realtime-8k-v2",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "paraformer-realtime-8k-v1",
+        "category": "语音识别（语音转文本）与翻译（语音转成指定语种的文本）",
+        "description": ""
+    },
+    {
+        "name": "Qwen3-Embedding",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "text-embedding-v3",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "text-embedding-v2",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "text-embedding-v1",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "text-embedding-async-v2",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "text-embedding-async-v1",
+        "category": "公共云",
+        "description": ""
+    },
+    {
+        "name": "multimodal-embedding-v1",
+        "category": "多模态向量",
+        "description": ""
+    },
+    {
+        "name": "opennlu-v1",
+        "category": "文本分类、抽取、排序",
+        "description": ""
+    },
+    {
+        "name": "gte-rerank-v2",
+        "category": "文本分类、抽取、排序",
+        "description": ""
+    },
+    {
+        "name": "farui-plus",
+        "category": "行业",
+        "description": ""
+    },
+    {
+        "name": "qwen-max",
+        "category": "2025年5月8日下线",
+        "description": ""
+    },
+    {
+        "name": "qwen-plus",
+        "category": "2025年5月8日下线",
+        "description": ""
+    },
+    {
+        "name": "qwen-turbo",
+        "category": "2025年5月8日下线",
+        "description": ""
+    },
+    {
+        "name": "qwen2.5-math-72b-instruct",
+        "category": "2025年5月8日下线",
+        "description": ""
+    },
+    {
+        "name": "使用animate-anyone-gen2的“按视频背景生成”功能，可达到近似效果",
+        "category": "2025年5月8日下线",
+        "description": ""
+    },
+    {
+        "name": "通义千问-Max",
+        "category": "旗舰模型",
+        "description": "通义千问-Max"
+    },
+    {
+        "name": "通义千问-Plus",
+        "category": "旗舰模型",
+        "description": "通义千问-Plus"
+    },
+    {
+        "name": "通义千问-Turbo",
+        "category": "旗舰模型",
+        "description": "通义千问-Turbo"
+    },
+    {
+        "name": "通义千问-Long",
+        "category": "旗舰模型",
+        "description": "通义千问-Long"
+    }
+]
