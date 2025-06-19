@@ -6,6 +6,7 @@ import time
 import traceback
 import asyncio
 import logging
+import uvicorn # 导入 uvicorn
 
 # 引入自定义分析系统模块
 from qwen_analysis.analysis_system import QwenAnalysisSystem
@@ -148,13 +149,8 @@ async def chat_completions(request: Request):
         raise HTTPException(status_code=500, detail=str(e))
 
 def main():
-    logging.debug("接收到的原始请求体: {...}")
-    # ...existing code...
-    # response = get_api_response()  # 示例调用
-    # logging.debug("返回结果预览: %s", response)
-    # print(response, flush=True)
+    # 启动 FastAPI 应用
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 if __name__ == "__main__":
     main()
-# main.py
-# 运行 FastAPI 应用

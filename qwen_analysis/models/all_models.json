@@ -1,0 +1,58 @@
+[
+    {
+        "name": "qwen-turbo-latest",
+        "description": "适用于简单问答、快速响应。",
+        "capabilities": ["simple_qa", "fast_response"],
+        "cost_category": "low",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-plus-latest",
+        "description": "适用于中等复杂度任务，如长文本生成、多轮对话、金融分析。",
+        "capabilities": ["medium_complexity", "long_text_generation", "multi_turn_dialogue", "financial_analysis"],
+        "cost_category": "medium",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-max-latest",
+        "description": "适用于高复杂度专业任务，如深度金融分析、法律咨询、技术文档撰写。",
+        "capabilities": ["high_complexity", "deep_financial_analysis", "legal_consulting", "technical_documentation"],
+        "cost_category": "high",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-coder-plus",
+        "description": "专为代码理解与生成优化，适合写代码、调试、解释代码逻辑。",
+        "capabilities": ["code_understanding", "code_generation", "code_debugging", "code_explanation"],
+        "cost_category": "medium",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-vl-plus",
+        "description": "多模态模型，能理解图像并回答相关问题。",
+        "capabilities": ["multimodal", "image_understanding"],
+        "cost_category": "medium",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-audio-en-cn",
+        "description": "支持英文/中文语音识别和语音内容理解。",
+        "capabilities": ["speech_recognition", "audio_understanding"],
+        "cost_category": "medium",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen-long",
+        "description": "超长上下文处理，适合阅读长报告、论文、合同等。",
+        "capabilities": ["long_context", "document_analysis"],
+        "cost_category": "medium",
+        "free_tier_eligible": true
+    },
+    {
+        "name": "qwen3-30b-a3b",
+        "description": "支持两种推理模式，适用于动态任务，高逻辑推理、数学计算、代码生成能力强。",
+        "capabilities": ["advanced_reasoning", "mathematical_calculation", "code_generation"],
+        "cost_category": "high",
+        "free_tier_eligible": true
+    }
+]
